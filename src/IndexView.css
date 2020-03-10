@@ -1,0 +1,102 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #jobsdata {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #jobsdata td, #jobsdata th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #jobsdata tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #jobsdata tr:hover {background-color: #ddd;}
+  
+  #jobsdata th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ffeb3b;
+    color: white;
+  }
+
+  .createbutton {
+    background-color: #4CAF50; /* Green */
+    border: 2px solid #4CAF50;
+    border-radius:10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+.createbutton:hover {
+    background-color: #5cbf2a;
+    border: 2px solid #5cbf2a;
+   
+  }
+
+  .editbutton {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+  }
+
+  .deletebutton {
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #f44336;
+  }
+
+  .notification-delete-job-posting {
+    color: #f44336;
+    background-color: #fbcbc1;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    /* height: 25px; */
+    line-height: 25px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hide-notification-button {
+
+    background: #f44336;
+    color: #FFFFFF !important;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+    display: block;
+    text-align: center;
+    line-height: 13px;
+    padding: 3px 6px;
+    border: 0px;
+    border-radius: 3px 3px 3px 3px;
+    border-color: #f44336;
+    padding-top: 6px;
+    cursor:pointer;
+
+  }

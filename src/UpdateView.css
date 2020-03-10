@@ -1,0 +1,43 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    display: block;
+    height: 80px;
+  }
+
+  .editJobPostingsbutton {
+    background-color: #008CBA; /* Green */
+    border: 2px solid #008CBA;
+    border-radius:10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+.editJobPostingsbutton:hover {
+    background-color: #92fcfc;
+    border: 2px solid #92fcfc;
+   
+  }

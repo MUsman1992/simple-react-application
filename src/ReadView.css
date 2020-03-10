@@ -1,0 +1,81 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    display: block;
+    height: 80px;
+  }
+
+  .viewJobPostingsbutton {
+    background-color: #fce518; /* Green */
+    border: 2px solid #fce518;
+    border-radius:10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+.viewJobPostingsbutton:hover {
+    background-color: #fcf195;
+    border: 2px solid #fcf195;
+   
+  }
+
+  .notification-update-job-posting {
+    color: #65a31b;
+    background-color: #e0eeb2;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    /* height: 25px; */
+    line-height: 25px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hide-notification-button {
+
+    background: #65a31b;
+    color: #FFFFFF !important;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+    display: block;
+    text-align: center;
+    line-height: 13px;
+    padding: 3px 6px;
+    border: 0px;
+    border-radius: 3px 3px 3px 3px;
+    border-color: #65a31b;
+    padding-top: 6px;
+    cursor:pointer;
+
+  }
